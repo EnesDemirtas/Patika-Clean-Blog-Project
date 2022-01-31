@@ -16,12 +16,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/EnesDemirtas/-Patika-Clean-Blog-Project-.git"
+    "url": "git+https://github.com/EnesDemirtas/Patika-Clean-Blog-Project.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/EnesDemirtas/-Patika-Clean-Blog-Project-/issues"
+    "url": "https://github.com/EnesDemirtas/Patika-Clean-Blog-Project/issues"
   },
-  "homepage": "https://github.com/EnesDemirtas/-Patika-Clean-Blog-Project-#readme"
+  "homepage": "https://github.com/EnesDemirtas/Patika-Clean-Blog-Project#readme"
 }

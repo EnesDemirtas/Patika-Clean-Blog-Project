@@ -1,1 +1,1 @@
-# -Patika-Clean-Blog-Project-
+# Patika-Clean-Blog-Project
