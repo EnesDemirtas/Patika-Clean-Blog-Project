@@ -2,6 +2,7 @@ const express = require("express")
 const mongoose = require("mongoose")
 const ejs = require("ejs")
 const Post = require("./models/Post")
+const { restart } = require("nodemon")
 
 const app = express()
 
@@ -21,12 +22,18 @@ app.use(express.json())
 
 // Routes
 app.get("/", async (req, res) => {
-    const add_post = await Post.find({})
+    const posts = await Post.find({})
     res.render("index", {
-        add_post
+        posts
     })
 })
 
+app.get("/posts/:id", async (req, res) => {
+    const post = await Post.findById(req.params.id)
+    res.render("post", {
+        post
+    })
+})
 
 app.get("/about", (req, res) => {
     res.render("about")
