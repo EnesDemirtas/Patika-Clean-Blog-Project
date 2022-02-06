@@ -2,7 +2,6 @@ const express = require("express")
 const mongoose = require("mongoose")
 const methodOverride = require("method-override")
 const ejs = require("ejs")
-const { restart } = require("nodemon")
 const postController = require("./controllers/postController")
 const pageController = require("./controllers/pageController")
 
