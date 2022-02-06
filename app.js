@@ -9,10 +9,7 @@ const pageController = require("./controllers/pageController")
 const app = express()
 
 // Create DB Connection
-mongoose.connect("mongodb://localhost/cleanblog-test-db", {
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
-})
+mongoose.connect("mongodb+srv://enesd:5CO6q2ikiMfu4YOa@cluster0.pnast.mongodb.net/pcat-db?retryWrites=true&w=majority")
 
 // Template Engine
 app.set("view engine", "ejs")
